@@ -1,7 +1,7 @@
 {
 	"name": "doubleedesign/comet-components-launchpad",
 	"description": "Base package of common dependencies for Comet Components standalone packages",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"homepage": "https://cometcomponents.io",
 	"authors": [
 		{

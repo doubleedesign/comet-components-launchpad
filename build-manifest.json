@@ -1,0 +1,69 @@
+{
+    "component": "Launchpad",
+    "generated_at": "2025-07-30T02:27:20+00:00",
+    "files": [
+        {
+            "type": "directory",
+            "destination": "packages/core-standalone/launchpad/src/base"
+        },
+        {
+            "type": "directory",
+            "destination": "packages/core-standalone/launchpad/src/base/attributes",
+            "source": "packages/core/src/base/attributes"
+        },
+        {
+            "type": "directory",
+            "destination": "packages/core-standalone/launchpad/src/base/components"
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/base/components/PreprocessedHTML.php",
+            "source": "comet-components/packages/core-standalone/launchpad/src/base/components/PreprocessedHTML.php",
+            "is_symlink": false
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/base/components/Renderable.php",
+            "source": "packages/core/src/base/components/Renderable.php"
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/base/components/UIComponent.php",
+            "source": "packages/core/src/base/components/UIComponent.php"
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/base/Config.php",
+            "source": "packages/core/src/base/Config.php"
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/base/Settings.php",
+            "source": "packages/core/src/base/Settings.php"
+        },
+        {
+            "type": "directory",
+            "destination": "packages/core-standalone/launchpad/src/base/types",
+            "source": "packages/core/src/base/types"
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/base/Utils.php",
+            "source": "packages/core/src/base/Utils.php"
+        },
+        {
+            "type": "directory",
+            "destination": "packages/core-standalone/launchpad/src/components"
+        },
+        {
+            "type": "file",
+            "destination": "packages/core-standalone/launchpad/src/components/global.css",
+            "source": "packages/core/src/components/global.css"
+        },
+        {
+            "type": "directory",
+            "destination": "packages/core-standalone/launchpad/src/services",
+            "source": "packages/core/src/services"
+        }
+    ]
+}

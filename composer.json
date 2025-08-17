@@ -1,31 +1,32 @@
 {
-	"name": "doubleedesign/comet-components-launchpad",
-	"description": "Base package of common dependencies for Comet Components standalone packages",
-	"version": "0.0.3",
-	"homepage": "https://cometcomponents.io",
-	"authors": [
-		{
-			"name": "Leesa Ward",
-			"email": "leesa@doubleedesign.com.au"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"Doubleedesign\\Comet\\Core\\": [
-				"src/base/types/",
-				"src/base/attributes/",
-				"src/base/components/",
-				"src/base/",
-				"src/services/"
-			]
-		}
-	},
-	"require": {
-		"illuminate/view": "^10.0",
-		"illuminate/filesystem": "^10.0",
-		"illuminate/events": "^10.0",
-		"illuminate/container": "^10.0",
-		"illuminate/support": "^10.0",
-		"ezyang/htmlpurifier": "^4.18"
-	}
+    "name": "doubleedesign/comet-components-launchpad",
+    "description": "Base package of common dependencies for Comet Components standalone packages",
+    "version": "0.1.1",
+    "homepage": "https://cometcomponents.io",
+    "authors": [
+        {
+            "name": "Leesa Ward",
+            "email": "leesa@doubleedesign.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Doubleedesign\\Comet\\Core\\": [
+                "src/base/types/",
+                "src/base/attributes/",
+                "src/base/traits/",
+                "src/base/components/",
+                "src/base/",
+                "src/services/"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/view": "^10.0",
+        "illuminate/filesystem": "^10.0",
+        "illuminate/events": "^10.0",
+        "illuminate/container": "^10.0",
+        "illuminate/support": "^10.0",
+        "ezyang/htmlpurifier": "^4.18"
+    }
 }
